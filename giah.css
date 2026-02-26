@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 10%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: 10rem auto 10rem;
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "sb sb sb mn mn mn mn mn"
+    "ft ft ft ft ft ft ft ft"
+    ;
+}
+.header{
+    grid-area: hd;
+    background-color: aqua;
+}
+.sidebar{
+    grid-area: sb;
+    background-color: aquamarine;
+}
+.main{
+    color:aliceblue;
+    grid-area: mn;
+    background-color: black;
+}
+.footer{
+    grid-area: ft;
+    background-color: blue;
+}

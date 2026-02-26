@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+   font-size: 4rem;
+   color: #f0be28; 
+}
+nav{
+    text-align: center;
+    background-color: rgb(28, 20, 180);
+    border-bottom: 10px double #FCC200;
+}
+ul{
+    list-style-type: none;
+}
+li a,
+li a:visited{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
+ol{
+    text-align: center;
+    list-style: inside;
+    color:rgba(3, 3, 3, 0.68);
+}
+body{
+    background-color: rgba(26, 229, 244, 0.68);
+}
+
+.reference{
+    position:fixed;
+    top: 30%;
+    right: 10%;
+}
+button a, 
+button a:visited{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: black;
+}
+button{
+    background-color: chocolate;
+}
+.donation{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color:bisque;
+    height: 10rem;
+    width: 30%;
+    position: fixed;
+    left: 25%;
+    top: 35%;
+}
+p{
+    font-size: 1.5rem;
+}
+footer{
+    position: fixed;
+    bottom:0;
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(img/Semesterly_art.jpg);
+    background-color: #faeed8;
+    color: black;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: "SN Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+img{
+    display:block;
+}
+.artist_icon:hover{
+    background-color: rgb(49, 11, 138);
+    border:10px double #be9314;
+    transform: scale(1.2, 1.2);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3rem;
+    padding-left: 2rem;
+}
+.artist_icon{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 2rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+header{
+    height: auto;
+}
+nav{
+    color: #47cae1;
+    display:grid;
+    text-align: center;
+    background-color: #13192e;
+    width: 100%;
+    background-image: url(img/Semesterly_art.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 0.2rem solid black ;
+}
+ul{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 700;
+}
+li a,
+li a:visited{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
+ol{
+    text-align: center;
+    list-style: inside;
+    color:rgba(3, 3, 3, 0.68);
+    font-size: 2rem;
+}
+.description a:visited,
+.description a
+{
+    color: #5c4013;
+    font-size: 1.5rem;
+}
+.tags{
+    list-style-position: outside;
+    float: left;
+}
+#tag1::before{
+    content: "SFW";
+    display: flex;
+    height: 40px;
+    width:40px;
+}
+input[type="checkbox"]:not(:checked),
+input[type="checkbox"]:checked{
+    position: absolute;
+    left: -9999%;
+}
+.tags {
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+}
+input[type = "checkbox"]:checked + label {
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+}
+.none {
+    display: none;
+}
