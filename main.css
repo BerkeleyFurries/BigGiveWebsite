@@ -8,6 +8,8 @@
 }
 body {
     background-image: url(img/Semesterly_art.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #faeed8;
     color: black;
     font-family: "Nunito", sans-serif;
@@ -52,11 +54,8 @@ nav{
     color: #47cae1;
     display:grid;
     text-align: center;
-    background-color: #13192e;
+    background-color: hsla(39, 77%, 91%, 0.482);
     width: 100%;
-    background-image: url(img/Semesterly_art.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     border-bottom: 0.2rem solid black ;
 }
 ul{
@@ -70,7 +69,7 @@ li a,
 li a:visited{
     text-decoration: none;
     font-size: 1.6rem;
-    color: whitesmoke;
+    color: black;
 }
 ol{
     text-align: center;
