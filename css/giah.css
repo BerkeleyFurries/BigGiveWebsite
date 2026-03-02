@@ -18,7 +18,7 @@ body{
     grid-auto-rows: 10rem auto 10rem;
     grid-template-areas:
     "hd hd hd hd hd hd hd hd"
-    "sb sb sb mn mn mn mn mn"
+    "sb sb mn mn mn mn mn mn"
     "ft ft ft ft ft ft ft ft"
     ;
 }
@@ -29,6 +29,10 @@ body{
 .sidebar{
     grid-area: sb;
     background-color: aquamarine;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
 }
 .main{
     color:aliceblue;
@@ -53,5 +57,29 @@ h1 {
 h2 {
     font-weight: bolder;
     font-size: 2rem;
+}
 
+img{
+    width: 100%;
+    height: auto;
+}
+
+.icon{
+    width: 300px;
+    height: 300px;
+}
+figure{
+    width: 60%;
+    height: auto;
+    position: relative;
+}
+
+.redemption{
+    position: absolute;
+    right: 0px;
+    width: 8rem;
+    height: 2rem;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
 }
