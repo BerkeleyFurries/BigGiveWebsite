@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 *{
     margin:0;
     padding:0;
@@ -5,6 +7,10 @@
 }
 
 body{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5rem;
     margin: 10%;
     margin-top: 5%;
     display: grid;
@@ -28,8 +34,24 @@ body{
     color:aliceblue;
     grid-area: mn;
     background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
 }
 .footer{
     grid-area: ft;
     background-color: blue;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: "SN Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+h2 {
+    font-weight: bolder;
+    font-size: 2rem;
+
 }
