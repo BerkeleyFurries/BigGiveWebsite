@@ -7,16 +7,23 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(img/Semesterly_art.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #faeed8;
     color: black;
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    background-color: #faeed8;
+    background-image: url(img/blured_background.PNG);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment:fixed;
 }
-
+main{
+    background-color: #faeed8;
+    border-radius: 2rem;
+    margin: 10%;
+    margin-top: 2%;
+    height: 85%;
+}
 h1 {
     font-size: 4rem;
     font-family: "SN Pro", sans-serif;
@@ -57,9 +64,7 @@ nav{
     flex-wrap: nowrap;
     text-align: center;
     align-items: center;
-    background-color: hsla(39, 77%, 91%, 0.482);
     width: 100%;
-    border-bottom: 0.2rem solid black ;
 }
 ul{
     font-family: "Nunito", sans-serif;
