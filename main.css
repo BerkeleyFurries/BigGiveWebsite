@@ -52,8 +52,11 @@ header{
 }
 nav{
     color: #47cae1;
-    display:grid;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     text-align: center;
+    align-items: center;
     background-color: hsla(39, 77%, 91%, 0.482);
     width: 100%;
     border-bottom: 0.2rem solid black ;
