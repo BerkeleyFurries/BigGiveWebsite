@@ -80,6 +80,7 @@ for(let i = 0; i<length; i++){
 
 tag1.addEventListener("click",
     (event) => {
+        console.log(tag1.checked)
         for (let i = 0; i<24; i++){
             if(array[i].classList[0] == "none"){
                 array[i].classList.toggle("artist_icon")
@@ -172,16 +173,12 @@ tag6.addEventListener("click",
 tag7.addEventListener("click",
     (event) => {
         for (let i = 0; i<24; i++){
-            const length = array_art[i].tags.length;
-            for (let n = 0; n<24; n++){
-                if (array_art[i].tags[n] == "nsfw" && array[i].classList[0] == "none"){
-                    array[i].classList.toggle("artist_icon")
-                }
-                else if (!(array_art[i].tags[n] == "nsfw")) {
-                    array[i].classList.toggle("none")
-                }
+            const is_in = array_art[i].tags.includes("nsfw");
+            if (!is_in && array[i].classList[0] == "artist_icon"){
+                array[i].classList.toggle("none")
+            } else if(!is_in && array[i].classList[0] == "none" ){
+                array[i].classList.toggle("artist_icon")
             }
-
         }
     }
     , false);
