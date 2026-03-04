@@ -70,14 +70,6 @@ const array = [Ammhook, aloemira, araghosta, cheddart, cloudwyrms, fruitpunch, f
 const array_art = [Ammhook_art, aloemira_art, araghosta_art, cheddart_art, cloudwyrms_art, fruitpunch_art, furriesatberkeley_art, giah_art, guber_art, hunter_art, isb_art, lotuscandy_art,phoenix_art, pyre_art, scylactic_art, shwahb_art, snacc_art, spiralflute_art, spooky_art, static_art, thefruitiestbat_art, xarical_art, yellojellow_art, yourfriendren_art]
 const art_num = 24;
 const tag_num = 14;
-/* const item = hunter.classList[0]
-console.log(array_art[0].name)
-console.log(array_art[0].tags)
-const length = array_art[0].tags.length
-console.log(length)
-for(let i = 0; i<length; i++){
-    console.log(array_art[0].tags[i])
-} */
 tag1.checked = false;
 tag2.checked = false;
 tag3.checked = false;
@@ -94,13 +86,6 @@ tag13.checked = false;
 tag14.checked = false;
 
 let tags_array = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-function array_add(array, length){
-    let sum = 0;
-    for (let i = 0; i<length; i++){
-        sum += array[i];
-    }
-    return sum;
-}
 function array_mul(array1, array2, length){
     let new_arr = [];
     for (let n = 0; n<length; n++){
@@ -137,13 +122,6 @@ tag1.addEventListener("click",
     (event) => {
         switchtag(0);
         filtering();
-        /* for (let i = 0; i<24; i++){
-            if ((array_art[i].tags[0] == 0 && array[i].classList[0] == "artist_icon")){
-                array[i].classList.toggle("none")
-            } else if(array_art[i].tags[0] == 0 && array[i].classList[0] == "none" ){
-                array[i].classList.toggle("artist_icon")
-            }
-        } */
     }
     , false);
 tag2.addEventListener("click", 
@@ -156,156 +134,72 @@ tag3.addEventListener("click",
     (event) => {
         switchtag(2);
         filtering();
-        /* for (let i = 0; i<24; i++){
-            if (array_art[i].tags[2] == 0 && array[i].classList[0] == "artist_icon"){
-                array[i].classList.toggle("none")
-            } else if(array_art[2].tags[6] == 0 && array[i].classList[0] == "none" ){
-                array[i].classList.toggle("artist_icon")
-            }
-        } */
     }
     , false);
 tag4.addEventListener("click", 
     (event) => {
         switchtag(3);
         filtering();
-        /* for (let i = 0; i<24; i++){
-            if (array_art[i].tags[3] == 0 && array[i].classList[0] == "artist_icon"){
-                array[i].classList.toggle("none")
-            } else if(array_art[i].tags[3] == 0 && array[i].classList[0] == "none" ){
-                array[i].classList.toggle("artist_icon")
-            }
-        } */
     }
     , false);
 tag5.addEventListener("click",
     (event) => {
         switchtag(4);
         filtering();
-        /* for (let i = 0; i<24; i++){
-            if (array_art[i].tags[4] == 0 && array[i].classList[0] == "artist_icon"){
-                array[i].classList.toggle("none")
-            } else if(array_art[i].tags[4] == 0 && array[i].classList[0] == "none" ){
-                array[i].classList.toggle("artist_icon")
-            }
-        } */
     }
     , false);
 tag6.addEventListener("click", 
     (event) => {
         switchtag(5);
         filtering();
-       /*  for (let i = 0; i<24; i++){
-            if (array_art[i].tags[5] == 0 && array[i].classList[0] == "artist_icon"){
-                array[i].classList.toggle("none")
-            } else if(array_art[i].tags[5] == 0 && array[i].classList[0] == "none" ){
-                array[i].classList.toggle("artist_icon")
-            }
-        } */
     }
     , false);
 tag7.addEventListener("click",
     (event) => {
         switchtag(6);
         filtering();
-        /* for (let i = 0; i<24; i++){
-            if (array_art[i].tags[6] == 0 && array[i].classList[0] == "artist_icon"){
-                array[i].classList.toggle("none")
-            } else if(array_art[i].tags[6] == 0 && array[i].classList[0] == "none" ){
-                array[i].classList.toggle("artist_icon")
-            }
-        } */
     }
     , false);
 tag8.addEventListener("click", 
     (event) => {
         switchtag(7);
         filtering();
-        /* for (let i = 0; i<24; i++){
-            if (array_art[i].tags[7] == 0 && array[i].classList[0] == "artist_icon"){
-                array[i].classList.toggle("none")
-            } else if(array_art[i].tags[7] == 0 && array[i].classList[0] == "none" ){
-                array[i].classList.toggle("artist_icon")
-            }
-        } */
     }
     , false);
 tag9.addEventListener("click",
     (event) => {
         switchtag(8);
         filtering();
-        /* for (let i = 0; i<24; i++){
-            if (array_art[i].tags[8] == 0 && array[i].classList[0] == "artist_icon"){
-                array[i].classList.toggle("none")
-            } else if(array_art[i].tags[8] == 0 && array[i].classList[0] == "none" ){
-                array[i].classList.toggle("artist_icon")
-            }
-        } */
     }
     , false);
 tag10.addEventListener("click", 
     (event) => {
         switchtag(9);
         filtering();
-        /* for (let i = 0; i<24; i++){
-            if (array_art[i].tags[9] == 0 && array[i].classList[0] == "artist_icon"){
-                array[i].classList.toggle("none")
-            } else if(array_art[i].tags[9] == 0 && array[i].classList[0] == "none" ){
-                array[i].classList.toggle("artist_icon")
-            }
-        } */
     }
     , false);
 tag11.addEventListener("click",
     (event) => {
         switchtag(10);
         filtering();
-        /* for (let i = 0; i<24; i++){
-            if (array_art[i].tags[10] == 0 && array[i].classList[0] == "artist_icon"){
-                array[i].classList.toggle("none")
-            } else if(array_art[i].tags[10] == 0 && array[i].classList[0] == "none" ){
-                array[i].classList.toggle("artist_icon")
-            }
-        } */
     }
     , false);
 tag12.addEventListener("click", 
     (event) => {
         switchtag(11);
         filtering();
-        /* for (let i = 0; i<24; i++){
-            if (array_art[i].tags[11] == 0 && array[i].classList[0] == "artist_icon"){
-                array[i].classList.toggle("none")
-            } else if(array_art[i].tags[11] == 0 && array[i].classList[0] == "none" ){
-                array[i].classList.toggle("artist_icon")
-            }
-        } */
     }
     , false);
 tag13.addEventListener("click",
     (event) => {
         switchtag(12);
         filtering();
-        /* for (let i = 0; i<24; i++){
-            if (array_art[i].tags[12] == 0 && array[i].classList[0] == "artist_icon"){
-                array[i].classList.toggle("none")
-            } else if(array_art[i].tags[12] == 0 && array[i].classList[0] == "none" ){
-                array[i].classList.toggle("artist_icon")
-            }
-        } */
     }
     , false);
 tag14.addEventListener("click", 
     (event) => {
         switchtag(13);
         filtering();
-        /* for (let i = 0; i<24; i++){
-            if (array_art[i].tags[13] == 0 && array[i].classList[0] == "artist_icon"){
-                array[i].classList.toggle("none")
-            } else if(array_art[i].tags[13] == 0 && array[i].classList[0] == "none" ){
-                array[i].classList.toggle("artist_icon")
-            }
-        } */
     }
     , false);
 
