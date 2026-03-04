@@ -42,32 +42,34 @@ const thefruitiestbat = document.querySelector(".artist_icon:nth-child(21)");
 const xarical = document.querySelector(".artist_icon:nth-child(22)");
 const yellojellow = document.querySelector(".artist_icon:nth-child(23)");
 const yourfriendren = document.querySelector(".artist_icon:nth-child(24)");
-const Ammhook_art = new artist(0, [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0]); //["traditional", "other"]
-const aloemira_art = new artist(1, [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0]); //["telegram", "chibi", "digital"]
+const Ammhook_art = new artist(0, [1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0]); //["traditional", "other", "$15 or less"]
+const aloemira_art = new artist(1, [1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0]); //["telegram", "chibi", "digital", "$15 or less"]
 const araghosta_art = new artist(2, [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]); //["digital", "chibi"]
 const cheddart_art = new artist(3, [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]); //["digital", "icon"]
-const cloudwyrms_art = new artist(4, [0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0]); //["digital", "chibi", "icon", "traditional", "badge"]
-const fruitpunch_art = new artist(5, [0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0]); //["digital", "reference", "nsfw"]
+const cloudwyrms_art = new artist(4, [1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0]); //["digital", "chibi", "icon", "traditional", "badge", "$15 or less"]
+const fruitpunch_art = new artist(5, [1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0]); //["digital", "reference", "nsfw", "$15 or less"]
 const furriesatberkeley_art = new artist(6, [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]); //["digital"]
-const giah_art = new artist(7, [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]); //["digital"]
-const guber_art = new artist(8, [0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1]); //["digital", "icon", "badge", "telegram", "traditional", "ych"]
-const hunter_art = new artist(9, [0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0]);//["digital", "icon", "badge", "telegram", "reference", "nsfw"]
-const isb_art = new artist(10, [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0]); //["digital", "telegram", "chibi"]
-const lotuscandy_art = new artist(11, [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0]);//["digital", "other", "traditional", "nsfw"]
+const giah_art = new artist(7, [1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0]); //["digital", "$15 or less", "sketch"]
+const guber_art = new artist(8, [1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1]); //["digital", "icon", "badge", "telegram", "traditional", "ych", "$15 or less", "skecth"]
+const hunter_art = new artist(9, [1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0]);//["digital", "icon", "badge", "telegram", "reference", "nsfw", "mystery", "$15 or less", "sketch"]
+const isb_art = new artist(10, [1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0]); //["animated","digital", "telegram", "chibi", "mystery", "$15 or less", "sketch"]
+const lotuscandy_art = new artist(11, [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0]);//["digital", "other", "traditional", "nsfw", "sketch"]
 const phoenix_art = new artist(12, [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]); //["digital"]
 const pyre_art = new artist(13,[0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0] ); //["digital", "nsfw"]
-const scylactic_art = new artist(14, [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1]); //[ "icon", "traditional", "ych"]
-const shwahb_art = new artist(15, [0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1]); //["digital", "telegram", "ych", "chibi", "reference", "icon"]
-const snacc_art = new artist(16, [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]); //["digital"]
+const scylactic_art = new artist(14, [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1]); //[ "icon", "traditional", "ych", "sketch"]
+const shwahb_art = new artist(15, [1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1]); //["digital", "telegram", "ych", "chibi", "reference", "icon", "$15 or less"]
+const snacc_art = new artist(16, [1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0]); //["digital", "$15 or less", "sketch"]
 const spiralflute_art = new artist(17, [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0]);//["digital", "telegram", "icon"]
-const spooky_art = new artist(18, [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]); //["digital", "icon"]
+const spooky_art = new artist(18, [1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0]); //["animate","digital", "icon", "$15 or less"]
 const static_art = new artist(19, [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]); //["digital"]
 const thefruitiestbat_art = new artist(20, [0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]); //["digital", "badge"]
 const xarical_art = new artist(21, [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]); //["digital"]
-const yellojellow_art = new artist(22, [0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1]); //["digital", "telegram", "ych", "chibi", "other", "icon"]
-const yourfriendren_art = new artist(23, [0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1]); //["digital", "nsfw", "ych"]
+const yellojellow_art = new artist(22, [0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1]); //["animated","digital", "telegram", "ych", "chibi", "other", "icon"]
+const yourfriendren_art = new artist(23, [1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1]); //["digital", "nsfw", "ych", "$15 or less"]
 const array = [Ammhook, aloemira, araghosta, cheddart, cloudwyrms, fruitpunch, furriesatberkeley, giah, guber, hunter, isb, lotuscandy,phoenix, pyre, scylactic, shwahb, snacc, spiralflute, spooky, static, thefruitiestbat, xarical, yellojellow, yourfriendren]
 const array_art = [Ammhook_art, aloemira_art, araghosta_art, cheddart_art, cloudwyrms_art, fruitpunch_art, furriesatberkeley_art, giah_art, guber_art, hunter_art, isb_art, lotuscandy_art,phoenix_art, pyre_art, scylactic_art, shwahb_art, snacc_art, spiralflute_art, spooky_art, static_art, thefruitiestbat_art, xarical_art, yellojellow_art, yourfriendren_art]
+const art_num = 24;
+const tag_num = 14;
 /* const item = hunter.classList[0]
 console.log(array_art[0].name)
 console.log(array_art[0].tags)
@@ -112,23 +114,34 @@ function switchtag(n){
         } else {
             tags_array[n] = 0;
         }
-    console.log(tags_array);
+}
+function filtering(){
+    for(let i =0; i<art_num; i++){
+            let filtering = array_mul(array_art[i].tags, tags_array, tag_num);
+            let is_none = (array[i].classList[0] == "none");
+            let is_artist = (array[i].classList[0] == "artist_icon");
+            let same = filtering.join() == tags_array.join();
+            let item = array[i].classList[0]
+            if (same && is_none){
+                array[i].classList.remove("none")
+                array[i].classList.add("artist_icon")
+            } else if ((!(same) && is_artist)){
+                array[i].classList.remove("artist_icon")
+                array[i].classList.add("none")
+            }
+            item = array[i].classList[0];
+            console.log(item)
+        }
 }
 tag1.addEventListener("click",
     (event) => {
         switchtag(0);
-        for (let i = 0; i<24; i++){
-            if (array_art[i].tags[0] == 0 && array[i].classList[0] == "artist_icon"){
+        filtering();
+        /* for (let i = 0; i<24; i++){
+            if ((array_art[i].tags[0] == 0 && array[i].classList[0] == "artist_icon")){
                 array[i].classList.toggle("none")
             } else if(array_art[i].tags[0] == 0 && array[i].classList[0] == "none" ){
                 array[i].classList.toggle("artist_icon")
-            }
-        }
-        /* for (let i = 0; i<24; i++){
-            if(array[i].classList[0] == "none"){
-                array[i].classList.toggle("artist_icon")
-            }else{
-                array[i].classList.toggle("none")
             }
         } */
     }
@@ -136,157 +149,163 @@ tag1.addEventListener("click",
 tag2.addEventListener("click", 
     (event) => {
         switchtag(1);
-        for (let i = 0; i<24; i++){
-            if (array_art[i].tags[1] == 0 && array[i].classList[0] == "artist_icon"){
-                array[i].classList.toggle("none")
-            } else if(array_art[i].tags[1] == 0 && array[i].classList[0] == "none" ){
-                array[i].classList.toggle("artist_icon")
-            }
-        }
+        filtering();
     }
     , false);
 tag3.addEventListener("click",
     (event) => {
         switchtag(2);
-        for (let i = 0; i<24; i++){
+        filtering();
+        /* for (let i = 0; i<24; i++){
             if (array_art[i].tags[2] == 0 && array[i].classList[0] == "artist_icon"){
                 array[i].classList.toggle("none")
             } else if(array_art[2].tags[6] == 0 && array[i].classList[0] == "none" ){
                 array[i].classList.toggle("artist_icon")
             }
-        }
+        } */
     }
     , false);
 tag4.addEventListener("click", 
     (event) => {
         switchtag(3);
-        for (let i = 0; i<24; i++){
+        filtering();
+        /* for (let i = 0; i<24; i++){
             if (array_art[i].tags[3] == 0 && array[i].classList[0] == "artist_icon"){
                 array[i].classList.toggle("none")
             } else if(array_art[i].tags[3] == 0 && array[i].classList[0] == "none" ){
                 array[i].classList.toggle("artist_icon")
             }
-        }
+        } */
     }
     , false);
 tag5.addEventListener("click",
     (event) => {
         switchtag(4);
-        for (let i = 0; i<24; i++){
+        filtering();
+        /* for (let i = 0; i<24; i++){
             if (array_art[i].tags[4] == 0 && array[i].classList[0] == "artist_icon"){
                 array[i].classList.toggle("none")
             } else if(array_art[i].tags[4] == 0 && array[i].classList[0] == "none" ){
                 array[i].classList.toggle("artist_icon")
             }
-        }
+        } */
     }
     , false);
 tag6.addEventListener("click", 
     (event) => {
         switchtag(5);
-        for (let i = 0; i<24; i++){
+        filtering();
+       /*  for (let i = 0; i<24; i++){
             if (array_art[i].tags[5] == 0 && array[i].classList[0] == "artist_icon"){
                 array[i].classList.toggle("none")
             } else if(array_art[i].tags[5] == 0 && array[i].classList[0] == "none" ){
                 array[i].classList.toggle("artist_icon")
             }
-        }
+        } */
     }
     , false);
 tag7.addEventListener("click",
     (event) => {
         switchtag(6);
-        for (let i = 0; i<24; i++){
+        filtering();
+        /* for (let i = 0; i<24; i++){
             if (array_art[i].tags[6] == 0 && array[i].classList[0] == "artist_icon"){
                 array[i].classList.toggle("none")
             } else if(array_art[i].tags[6] == 0 && array[i].classList[0] == "none" ){
                 array[i].classList.toggle("artist_icon")
             }
-        }
+        } */
     }
     , false);
 tag8.addEventListener("click", 
     (event) => {
         switchtag(7);
-        for (let i = 0; i<24; i++){
+        filtering();
+        /* for (let i = 0; i<24; i++){
             if (array_art[i].tags[7] == 0 && array[i].classList[0] == "artist_icon"){
                 array[i].classList.toggle("none")
             } else if(array_art[i].tags[7] == 0 && array[i].classList[0] == "none" ){
                 array[i].classList.toggle("artist_icon")
             }
-        }
+        } */
     }
     , false);
 tag9.addEventListener("click",
     (event) => {
         switchtag(8);
-        for (let i = 0; i<24; i++){
+        filtering();
+        /* for (let i = 0; i<24; i++){
             if (array_art[i].tags[8] == 0 && array[i].classList[0] == "artist_icon"){
                 array[i].classList.toggle("none")
             } else if(array_art[i].tags[8] == 0 && array[i].classList[0] == "none" ){
                 array[i].classList.toggle("artist_icon")
             }
-        }
+        } */
     }
     , false);
 tag10.addEventListener("click", 
     (event) => {
         switchtag(9);
-        for (let i = 0; i<24; i++){
+        filtering();
+        /* for (let i = 0; i<24; i++){
             if (array_art[i].tags[9] == 0 && array[i].classList[0] == "artist_icon"){
                 array[i].classList.toggle("none")
             } else if(array_art[i].tags[9] == 0 && array[i].classList[0] == "none" ){
                 array[i].classList.toggle("artist_icon")
             }
-        }
+        } */
     }
     , false);
 tag11.addEventListener("click",
     (event) => {
         switchtag(10);
-        for (let i = 0; i<24; i++){
+        filtering();
+        /* for (let i = 0; i<24; i++){
             if (array_art[i].tags[10] == 0 && array[i].classList[0] == "artist_icon"){
                 array[i].classList.toggle("none")
             } else if(array_art[i].tags[10] == 0 && array[i].classList[0] == "none" ){
                 array[i].classList.toggle("artist_icon")
             }
-        }
+        } */
     }
     , false);
 tag12.addEventListener("click", 
     (event) => {
         switchtag(11);
-        for (let i = 0; i<24; i++){
+        filtering();
+        /* for (let i = 0; i<24; i++){
             if (array_art[i].tags[11] == 0 && array[i].classList[0] == "artist_icon"){
                 array[i].classList.toggle("none")
             } else if(array_art[i].tags[11] == 0 && array[i].classList[0] == "none" ){
                 array[i].classList.toggle("artist_icon")
             }
-        }
+        } */
     }
     , false);
 tag13.addEventListener("click",
     (event) => {
         switchtag(12);
-        for (let i = 0; i<24; i++){
+        filtering();
+        /* for (let i = 0; i<24; i++){
             if (array_art[i].tags[12] == 0 && array[i].classList[0] == "artist_icon"){
                 array[i].classList.toggle("none")
             } else if(array_art[i].tags[12] == 0 && array[i].classList[0] == "none" ){
                 array[i].classList.toggle("artist_icon")
             }
-        }
+        } */
     }
     , false);
 tag14.addEventListener("click", 
     (event) => {
         switchtag(13);
-        for (let i = 0; i<24; i++){
+        filtering();
+        /* for (let i = 0; i<24; i++){
             if (array_art[i].tags[13] == 0 && array[i].classList[0] == "artist_icon"){
                 array[i].classList.toggle("none")
             } else if(array_art[i].tags[13] == 0 && array[i].classList[0] == "none" ){
                 array[i].classList.toggle("artist_icon")
             }
-        }
+        } */
     }
     , false);
 

@@ -46,7 +46,7 @@ img{
 .artist_icon:hover{
     background-color: rgb(49, 11, 138);
     border:10px double #be9314;
-    transform: scale(1.2, 1.2);
+    transform: scale(1.4, 1.4);
 }
 .container{
     display: grid;
@@ -73,6 +73,7 @@ nav{
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    width: 60%;
     margin-left: 15%;
     margin-right: 15%;
 }
