@@ -44,10 +44,10 @@ p{
 img{
     display:block;
 }
-/* .artist_icon:hover{
+.artist_icon:hover{
     background-color: #47cae1;
     transform: scale(1.2, 1.2);
-} */
+}
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

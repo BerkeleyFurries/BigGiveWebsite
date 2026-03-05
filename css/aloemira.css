@@ -54,9 +54,8 @@ body{
     margin-right: 120px;
     grid-area: mn;
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 h1 {
@@ -118,13 +117,13 @@ button:hover{
 .redemption{
     position: relative;
     left: 80%;
-    width: auto;
+    width: 10rem;
     height: 4rem;
     font-size: 1.8rem;
     display: flex;
     align-items: center;
     background-color: #d95848;
-    border-radius: 50%;
+    border-radius: 2rem;
     padding: 1rem;
     color: aliceblue;
 }
