@@ -18,6 +18,7 @@ body {
     background-attachment:fixed;
 }
 main{
+    z-index: 1;
     background-color: #faeed8;
     border-radius: 2rem;
     margin: 10%;
@@ -39,6 +40,7 @@ p{
     background-color: #f3e899;
     margin:5%;
     margin-top: 0;
+    font-size: 1.5rem;
 }
 img{
     display:block;
@@ -74,8 +76,7 @@ nav{
     flex-wrap: nowrap;
     align-items: center;
     width: 60%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
 }
 ul{
     font-family: "Nunito", sans-serif;
@@ -107,21 +108,72 @@ input[type="checkbox"]:checked{
     position: absolute;
     left: -9999%;
 }
-.tags {
-    font-size: 2rem;
-    margin: 1rem;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 2px;
-    color: black;
-    background-color: #f3e899;
-    list-style-position: outside;
-}
 input[type = "checkbox"]:checked + label {
-    border-radius:2px;
     color: white;
     background-color: #e37620;
+    border-radius: 1px;
 }
 .none {
     display: none;
+}
+
+.bold{
+    display: inline-block;
+    font-weight: bold;
+}
+.bold_underline{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.tags_jane_container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: 250px 100px;
+    grid-template-areas:
+    "ja ta"
+    "ja bt";
+}
+.tags {
+    font-size: 1.5rem;
+    margin: 1rem;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+    background-color: #f3e899;
+    list-style-position: outside;
+    border: 2px solid black;
+    grid-area:ta;
+}
+.jane_artists{
+    grid-area:ja;
+}
+.TOS{
+    grid-area: bt;
+    width: 20rem;
+    height: 3rem;
+    position: relative; 
+    left: 60%;
+    top: 10%;
+    background-color: #47cae1;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+a,
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+#house_button{
+    position: relative;
+    bottom: -100px;
+}
+#nelli_donate{
+    position: relative;
+    bottom: -100px;
+    left: 50%;
+}
+.title{
+    position: relative;
 }

@@ -84,7 +84,6 @@ tag11.checked = false;
 tag12.checked = false;
 tag13.checked = false;
 tag14.checked = false;
-
 let tags_array = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 function array_mul(array1, array2, length){
     let new_arr = [];
