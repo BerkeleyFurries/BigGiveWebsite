@@ -38,6 +38,7 @@ body{
 }
 .sidebar{
     background-color: #faeed8;
+    margin-left: 120px;
     grid-area: sb;
     display: flex;
     flex-wrap: nowrap;
@@ -49,7 +50,9 @@ body{
     grid-area: mn;
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     align-items: center;
+    margin-right: 120px;
 }
 .footer{
     grid-area: ft;
@@ -67,7 +70,7 @@ h2 {
 }
 
 img{
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
