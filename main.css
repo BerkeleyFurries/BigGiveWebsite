@@ -50,8 +50,9 @@ img{
 }
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
+    justify-content: center;
     align-content: center;
 }
 .artist_icon{
@@ -69,12 +70,11 @@ header{
 }
 nav{
     color: #47cae1;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    display:grid;
+    width: min(400px, 60%);
+    margin-left: max(150px, 20%);
+    grid-auto-flow: column;
     align-items: center;
-    width: 60%;
-    margin-left: 20%;
 }
 ul{
     font-family: "Nunito", sans-serif;
@@ -114,7 +114,6 @@ input[type = "checkbox"]:checked + label {
 .none {
     display: none;
 }
-
 .bold{
     display: inline-block;
     font-weight: bold;
@@ -123,11 +122,10 @@ input[type = "checkbox"]:checked + label {
     font-weight: bold;
     text-decoration: underline;
 }
-
 .tags_jane_container{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-auto-rows: 250px 100px;
+    grid-auto-rows: auto;
     grid-template-areas:
     "ja ta"
     "ja bt";
@@ -151,9 +149,6 @@ input[type = "checkbox"]:checked + label {
     grid-area: bt;
     width: 20rem;
     height: 3rem;
-    position: relative; 
-    left: 60%;
-    top: 10%;
     background-color: #47cae1;
     font-size: 1.5rem;
     border-radius: 10px;
@@ -165,36 +160,38 @@ a:visited{
 }
 #house_button{
     position: relative;
-    bottom: -100px;
 }
 #nelli_donate{
     position: relative;
-    bottom: -100px;
-    left: 50%;
 }
 .title{
     position: relative;
 }
- @media screen and (max-width: 1300px) {
-    body {
-        background-image: url(img/blured_background.PNG);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment:fixed;
-    }
-    .container{
-        grid-template-columns: 1fr 1fr;
-    }
-}
 @media screen and (max-width: 860px){
-    body {
-        background-image: url(img/blured_background.PNG);
-        background-repeat: no-repeat;
-        background-size: 100vw 100vh;
-        background-attachment:fixed;
-    }
-    .container{
-        grid-auto-flow: row;
+    .tags_jane_container{
         grid-template-columns: 1fr;
+        grid-template-areas:
+        "ja"
+        "ta"
+        "bt";}
+    .title{
+        width: 400px;
+        height: auto;
+    }
+    #nelli_donate{
+        width: 150px;
+        height: auto;
+    }
+    #house_button{
+        width: 70px;
+        height: auto;
     }
 }
+ @media (min-width: 1000) {
+    
+}
+@media screen and (min-width: 1600px) {
+   
+}
+
+

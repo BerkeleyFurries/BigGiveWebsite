@@ -113,8 +113,6 @@ function filtering(){
                 array[i].classList.remove("artist_icon")
                 array[i].classList.add("none")
             }
-            item = array[i].classList[0];
-            console.log(item)
         }
 }
 tag1.addEventListener("click",
