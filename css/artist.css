@@ -37,7 +37,6 @@ body{
     margin-right: 20%;
 }
 .sidebar{
-    margin-left: 120px;
     background-color: #faeed8;
     grid-area: sb;
     display: flex;
@@ -47,10 +46,8 @@ body{
 }
 .main{
     background-color: #faeed8;
-    margin-right: 120px;
     grid-area: mn;
     display: flex;
-    flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
 }
@@ -70,7 +67,7 @@ h2 {
 }
 
 img{
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
