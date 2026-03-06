@@ -42,15 +42,19 @@ body{
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
 }
 .main{
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
     background-color: #faeed8;
     grid-area: mn;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    margin-right: 120px;
+    margin-right: min(120px, 10%);
 }
 .footer{
     grid-area: ft;
@@ -82,7 +86,7 @@ figure{
 
 p{
     background-color: #f3e899;
-    margin: 10%;
+    margin: clamp(20px, 10%, 30px);
     font-size: 1.3rem;
 }
 #home_button{
