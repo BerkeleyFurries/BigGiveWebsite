@@ -61,8 +61,8 @@ body{
 }
 
 h1 {
-    width: 100%;
-    display: inline-block;
+    overflow-wrap: break-word;
+    width: 90%;
     font-size: 3rem;
     font-family: "SN Pro", sans-serif;
     font-optical-sizing: auto;
@@ -85,6 +85,7 @@ figure{
 }
 
 p{
+    width: 80%;
     background-color: #f3e899;
     margin: clamp(20px, 10%, 30px);
     font-size: 1.3rem;
@@ -106,7 +107,7 @@ p{
 }
 a,
 a:visited{
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
 }
 
