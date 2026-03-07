@@ -171,6 +171,8 @@ a:visited{
     height: auto;
 }
 .title{
+    position: relative;
+    left: clamp(20px, 10%, 100px);
     width: clamp(150px, 100%, 750px);
     height: auto;
 }
