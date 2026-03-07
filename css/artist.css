@@ -141,3 +141,6 @@ img{
     max-width: 100%;
     height: auto;
 }
+#info{
+    text-align: center;
+}
